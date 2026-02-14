@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17-jdk-alpine   
 COPY target/spring-boot-docker-app.jar  /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8080
